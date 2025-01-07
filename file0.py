@@ -37,3 +37,7 @@ while guess != number:
             print("Thank you for playing!")
             break
 print("End of program")
+
+import pandas as pd
+name = pd.Series(["A", "B", "C", "D", "E"])
+price = pd.Series([100, 200, 300, 400, 500])
