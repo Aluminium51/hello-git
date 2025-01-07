@@ -19,10 +19,10 @@ else:
     
 # guess the number game
 import random
-number = random.randint(1, 10)
+number = random.randint(1, 1000)
 guess = None
 while guess != number:
-    guess = int(input("Guess a number between 1 and 10: "))
+    guess = int(input("Guess a number between 1 and 1000: "))
     if guess < number:
         print("Too low, try again!")
     elif guess > number:
